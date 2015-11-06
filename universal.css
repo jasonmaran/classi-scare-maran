@@ -1,0 +1,59 @@
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: black;
+	color: #dadada;
+	text-shadow: 2px 2px 2px #000;
+	font-family: "arial";
+}
+
+.bela-gif {
+	position: relative;
+	top: 250px;
+	left: 380px;
+}
+
+.background {
+	background-image: url("wolfman1838.jpg");
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 1000px;
+	height: 900px;
+	background-size: "cover";
+}
+
+.description {
+	width: 33%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.studio {
+	font-size: 48px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 5px;
+}
+
+.column1, .column2, .column3 {
+	width: 33.333%;
+	float: left;
+}
+
+.left-image, .center-image, .right-image {
+	margin-left: 60px;
+	cursor: pointer;
+}
+
+.footer {
+	top-margin: 5px;
+	position: absolute;
+	top: 800px;
+	left: 45%;
+}
